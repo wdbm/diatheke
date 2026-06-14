@@ -2,8 +2,6 @@ from pathlib import Path
 
 from setuptools import setup
 
-from diatheke import __version__
-
 
 ROOT = Path(__file__).parent
 README = (ROOT / "README.md").read_text(encoding="utf-8")
@@ -11,7 +9,7 @@ README = (ROOT / "README.md").read_text(encoding="utf-8")
 
 setup(
     name="diatheke",
-    version=__version__,
+    version="2026.06.14.147",
     description="Reusable Tk directory chooser dialogue for desktop Python applications.",
     long_description=README,
     long_description_content_type="text/markdown",

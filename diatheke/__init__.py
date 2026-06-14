@@ -38,7 +38,7 @@ from pathlib import Path
 import tkinter as tk
 from tkinter import messagebox
 
-__version__ = "2026-06-14T0134Z"
+__version__ = "2026-06-14T0147Z"
 __all__     = ["__version__", "DirectoryChooserDialog", "askdirectory"]
 
 DEFAULT_WIDTH      = 820
